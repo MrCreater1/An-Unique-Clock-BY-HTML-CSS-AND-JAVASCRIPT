@@ -1,0 +1,124 @@
+body {
+  background-color: black;
+  margin: 0;
+  background-image: url(HD-wallpaper-nordic-landscape-beautiful-mountain-scenery.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+#clock {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 100px;
+  color: white;
+  position: fixed;
+  font-weight: bold;
+}
+#date {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 280px 20px 20px 20px;
+  font-weight: bold;
+}
+#colors {
+  margin-top: 20px;
+  /* border: 1px solid white;*/
+  border-radius: 55px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#red {
+  margin-right: 76px;
+  cursor: pointer;
+}
+#yellow {
+  margin-right: 76px;
+  cursor: pointer;
+}
+#blue {
+  margin-right: 76px;
+  cursor: pointer;
+}
+#green {
+  margin-right: 76px;
+  cursor: pointer;
+}
+#white {
+  margin-right: 76px;
+  cursor: pointer;
+}
+#orange {
+  margin-right: 76px;
+  cursor: pointer;
+}
+#purple {
+  margin-right: 76px;
+  cursor: pointer;
+}
+#brown {
+  margin-right: 76px;
+  cursor: pointer;
+}
+#black {
+  margin-right: 76px;
+  cursor: pointer;
+}
+/* Media Queries for Enhanced Responsiveness */
+
+@media (max-width: 768px) {
+  #clock {
+    font-size: 12vw; /* Adjust font size for tablet-sized screens */
+  }
+
+  #date {
+    font-size: 9vw; /* Adjust font size for tablet-sized screens */
+  }
+
+  #colors {
+    padding: 15px; /* Reduce padding on smaller screens */
+  }
+
+  #colors div {
+    margin: 8px; /* Reduce margin between colors */
+  }
+}
+
+@media (max-width: 480px) {
+  #clock {
+    font-size: 15vw; /* Further adjust font size for phone-sized screens */
+  }
+
+  #date {
+    font-size: 10vw; /* Further adjust font size for phone-sized screens */
+    margin-top: 500px;
+  }
+
+  #colors {
+    padding: 10px; /* Further reduce padding */
+  }
+
+  #colors div {
+    width: 25px; /* Slightly smaller color boxes */
+    height: 25px;
+    margin: 6px; /* Further reduce margins */
+  }
+}
+
+@media (max-width: 320px) {
+  #colors div {
+    width: 20px;
+    height: 20px;
+  }
+}
